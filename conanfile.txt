@@ -1,0 +1,6 @@
+ [requires]
+ asio/1.28.2
+
+ [generators]
+ qmake
+ visual_studio
