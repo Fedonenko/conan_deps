@@ -21,7 +21,9 @@ DISTFILES += \
 
 !exists("conanbuildinfo.props") {
     message("Start local_update_deps")
+
     system("local_update_deps.bat"): HAS_BIN = TRUE
+
     message("End local_update_deps")
 }
 
